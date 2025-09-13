@@ -85,7 +85,7 @@ export const featuredWorks: FeaturedWork[] = [
 export const professionalAffiliations: ProfessionalAffiliation[] = [
   {
     title: "Associate Member",
-    organization: "Bangladesh Institute of Planners (BIP), Dhaka",
+    organization: "Bangladesh Institute of Planners (BIP), Dhaka, Bangladesh",
     id: "BIP2074",
   },
 ]

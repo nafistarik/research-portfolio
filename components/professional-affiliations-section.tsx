@@ -3,11 +3,11 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export function ProfessionalAffiliationsSection() {
   return (
-    <section className="px-6 lg:px-12">
-      <div className="max-w-6xl mx-auto py-16">
+    <section className="px-6 lg:px-12 text-center">
+      <div className="mx-auto py-16">
         <h2 className="text-3xl font-bold text-foreground mb-12 text-balance">Professional Affiliations</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div >
           {professionalAffiliations.map((affiliation, index) => (
             <Card key={index}>
               <CardContent className="p-6">

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { heroContent } from "@/data/portfolio-data"
+import dp from "@/assets/images/dp.png"
 
 export function HeroSection() {
   return (
@@ -30,7 +31,7 @@ export function HeroSection() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-80 h-80 lg:w-96 lg:h-96">
               <Image
-                src="/professional-headshot-of-academic-researcher.jpg"
+                src={dp}
                 alt="Prosenjit Das - Professional headshot"
                 fill
                 className="object-cover rounded-lg shadow-lg"
