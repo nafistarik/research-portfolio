@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { featuredWorks } from "@/data/portfolio-data"
 import { Card, CardContent } from "@/components/ui/card"
+import Link from "next/link"
 
 export function FeaturedWorksSection() {
   return (
@@ -13,21 +14,23 @@ export function FeaturedWorksSection() {
             const firstImage = Array.isArray(work.image) ? work.image[0] : work.image
 
             return (
-              <Card key={index} className="group hover:shadow-lg transition-shadow duration-300">
-                <CardContent className="p-0">
-                  <div className="relative h-48 overflow-hidden rounded-t-lg">
-                    <Image
-                      src={firstImage || "/placeholder.svg"}
-                      alt={work.name}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="font-semibold text-card-foreground leading-tight text-balance">{work.name}</h3>
-                  </div>
-                </CardContent>
-              </Card>
+              <Link href={work.slug} key={index} className="group" rel="noopener noreferrer">
+                <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
+                  <CardContent className="p-0">
+                    <div className="relative h-48 overflow-hidden rounded-t-lg">
+                      <Image
+                        src={firstImage || "/placeholder.svg"}
+                        alt={work.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="font-semibold text-card-foreground leading-tight text-balance">{work.title}</h3>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             )
           })}
         </div>

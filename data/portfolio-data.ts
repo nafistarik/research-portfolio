@@ -32,53 +32,62 @@ export const heroContent = {
 // Featured Works
 export const featuredWorks: FeaturedWork[] = [
   {
-    name: "LULC Mapping Using Satellite Images and Remote Sensing Technology",
+    title: "LULC Mapping Using Satellite Images and Remote Sensing Technology",
     image: [
       "/satellite-imagery-land-use-mapping.jpg",
       "/remote-sensing-data-visualization.jpg",
       "/gis-analysis-results.jpg",
     ],
+    slug: "/projects/professional/land-use-mapping-satellite-images",
   },
   {
-    name: "The Condition of Non-Motorized Transport Modes in Puran Dhaka: A Multinomial Logit Model-Based Mode Choice Behavior Analysis.",
+    title: "The Condition of Non-Motorized Transport Modes in Puran Dhaka: A Multinomial Logit Model-Based Mode Choice Behavior Analysis.",
     image: "/transportation-planning-dhaka-rickshaw-analysis.jpg",
+    slug: "/projects/academic/non-motorized-transport-puran-dhaka",
   },
   {
-    name: "Integrated City Master Plan (2020-2050) of Dhaka South City Corporation",
+    title: "Integrated City Master Plan (2020-2050) of Dhaka South City Corporation",
     image: ["/urban-master-plan-dhaka.jpg", "/city-planning-maps.jpg", "/urban-development-strategy.jpg"],
+    slug: "/projects/professional/dhaka-south-master-plan",
   },
   {
-    name: "Flood Vulnerability Assessment of Lama Municipality – A GIS, Remote Sensing and PRA Based Approach",
+    title: "Flood Vulnerability Assessment of Lama Municipality – A GIS, Remote Sensing and PRA Based Approach",
     image: "/flood-vulnerability-mapping-gis.jpg",
+    slug: "/research/experience",
   },
   {
-    name: "Fakirkhali Eco-smart City Master Plan",
+    title: "Fakirkhali Eco-smart City Master Plan",
     image: ["/eco-smart-city-planning.jpg", "/sustainable-urban-design.jpg", "/green-infrastructure-planning.jpg"],
+    slug: "/projects/professional/fakirkhali-eco-smart-city",
   },
   {
-    name: "Economic Evaluation of Traffic Delay at Railway Level Crossing: A Case Study of Overlooked High-Density Urban Area",
+    title: "Economic Evaluation of Traffic Delay at Railway Level Crossing: A Case Study of Overlooked High-Density Urban Area",
     image: "/traffic-analysis-railway-crossing.jpg",
+    slug: "/projects/academic/traffic-delay-railway-crossing",
   },
   {
-    name: "Human Smuggling in Cox's Bazar and the Wider Sub-Region",
+    title: "Human Smuggling in Cox's Bazar and the Wider Sub-Region",
     image: "/humanitarian-crisis-analysis-coxs-bazar.jpg",
+    slug: "/projects/professional/human-smuggling-coxs-bazar",
   },
   {
-    name: "The Impact Of Climate Change On Agriculture And Food Security In Paba Upazila, Rajshahi",
+    title: "The Impact Of Climate Change On Agriculture And Food Security In Paba Upazila, Rajshahi",
     image: "/climate-change-agriculture-impact-study.jpg",
+    slug: "/projects/academic/climate-change-agriculture-paba",
   },
   {
-    name: "Estimation of Land Use Change to Identify Urban Heat Island Effect on Climate change: A Remote Sensing Based Approach",
+    title: "Estimation of Land Use Change to Identify Urban Heat Island Effect on Climate change: A Remote Sensing Based Approach",
     image: "/placeholder.svg?height=300&width=400",
+    slug: "/research/articles",
   },
-  {
-    name: "Terrain Analysis for Cox's Bazar",
-    image: [
-      "/gis-analysis-results.jpg",
-      "/remote-sensing-data-visualization.jpg",
-      "/flood-vulnerability-mapping-gis.jpg",
-    ],
-  },
+  // {
+  //   title: "Terrain Analysis for Cox's Bazar",
+  //   image: [
+  //     "/gis-analysis-results.jpg",
+  //     "/remote-sensing-data-visualization.jpg",
+  //     "/flood-vulnerability-mapping-gis.jpg",
+  //   ],
+  // },
 ]
 
 // Professional Affiliations

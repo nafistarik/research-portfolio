@@ -53,7 +53,7 @@ const menuItems: MenuItem[] = [
         href: "/projects/professional/human-smuggling-coxs-bazar",
       },
       {
-        title: "Land Use Mapping Using Satellite Images and Remote Sensing Technology",
+        title: "LULC Mapping Using Satellite Images and Remote Sensing Technology",
         href: "/projects/professional/land-use-mapping-satellite-images",
       },
       {
@@ -70,16 +70,16 @@ const menuItems: MenuItem[] = [
     title: "Academic Projects",
     children: [
       {
-        title: "Economic Evaluation of Traffic Delay at Railway Level Crossing – Mymensingh City Corporation",
+        title: "Economic Evaluation of Traffic Delay at Railway Level Crossing",
         href: "/projects/academic/traffic-delay-railway-crossing",
       },
       {
         title:
-          "The Condition of Non-Motorized Transport Modes in Puran Dhaka: A Multinomial Logit Model-Based Mode Choice Behavior Analysis.",
+          "A Multinomial Logit Model-Based Mode Choice Behavior Analysis.",
         href: "/projects/academic/non-motorized-transport-puran-dhaka",
       },
       {
-        title: "Impact of Climate Change on Agriculture & Food Security – Case Study, Paba Upazila, Rajshahi",
+        title: "Impact of Climate Change on Agriculture & Food Security",
         href: "/projects/academic/climate-change-agriculture-paba",
       },
       {
@@ -93,7 +93,7 @@ const menuItems: MenuItem[] = [
     ],
   },
   {
-    title: "Skillsets/Awards & Scholarship/Extra curricular Activities",
+    title: "Skillsets/Awards/Extra curricular Activities",
     children: [
       {
         title: "Skillsets",

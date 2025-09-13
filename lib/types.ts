@@ -39,9 +39,10 @@ export interface ResearchArticle {
 }
 
 export interface FeaturedWork {
-  name: string
+  title: string
   image: string | string[]
   description?: string
+  slug?: string
 }
 
 export interface ProfessionalAffiliation {
