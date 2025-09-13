@@ -52,7 +52,7 @@ export function ProjectDetail({ title, description, images, backLink, backText }
         {/* Project Description */}
         <div className="bg-secondary rounded-lg p-8">
           <h2 className="text-2xl font-bold text-secondary-foreground mb-6">Project Overview</h2>
-          <p className="text-secondary-foreground leading-relaxed text-pretty whitespace-pre-line">{description}</p>
+          <p className="text-secondary-foreground leading-relaxed text-pretty whitespace-pre-line">{description && description}</p>
         </div>
       </div>
     </div>
