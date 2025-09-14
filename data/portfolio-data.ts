@@ -15,6 +15,15 @@ import type {
   StandardizedTestScores,
 } from "@/lib/types"
 
+import condition1 from "@/assets/images/condition/condition1.jpeg"
+import condition2 from "@/assets/images/condition/condition2.jpg"
+import condition3 from "@/assets/images/condition/condition3.jpg"
+import condition4 from "@/assets/images/condition/condition4.jpg"
+import condition5 from "@/assets/images/condition/condition5.jpg"
+import condition6 from "@/assets/images/condition/condition6.jpg"
+import condition7 from "@/assets/images/condition/condition7.jpeg"
+import condition8 from "@/assets/images/condition/condition8.jpeg"
+
 // Hero Content
 export const heroContent = {
   name: "Prosenjit Das",
@@ -42,7 +51,7 @@ export const featuredWorks: FeaturedWork[] = [
   },
   {
     title: "The Condition of Non-Motorized Transport Modes in Puran Dhaka: A Multinomial Logit Model-Based Mode Choice Behavior Analysis.",
-    image: "/transportation-planning-dhaka-rickshaw-analysis.jpg",
+    image: condition1,
     slug: "/projects/academic/non-motorized-transport-puran-dhaka",
   },
   {
@@ -264,6 +273,7 @@ export const researchArticles: ResearchArticle[] = [
       "International Seminar on Rural Development in Asia–Pacific Region, Special Reference to Northeast India and Its Bordering Countries, Ministry of Rural Development",
     date: "24–28 August 2020",
     location: "Guwahati, India",
+    href: "https://www.researchgate.net/publication/395471598_THE_CONDITION_OF_RURAL_GROWTH_CENTERS_IN_RAJSHAHI_A_STUDY_TO_ANALYZE_THE_FACTORS_RESISTING_THE_SOCIO_ECONOMIC_GROWTH_OF_THE_RURAL_AREAS",
   },
   {
     title:
@@ -271,6 +281,7 @@ export const researchArticles: ResearchArticle[] = [
     presentedAt: "1st International Student Research Conference (ISRC), Dhaka University Research Society",
     date: "6 December 2020",
     location: "Dhaka",
+    href: "https://www.researchgate.net/publication/395471328_UNDERSTANDING_THE_REQUIREMENTS_OF_AFFORDABLE_HOUSING_A_STUDY_TO_ANALYZE_THE_CONDITION_OF_THE_LOWER_INCOME_SETTLEMENTS_BESIDE_THE_BANK_OF_PADMA_RIVER",
   },
 ]
 
@@ -335,7 +346,7 @@ export const academicProjects: AcademicProject[] = [
       "The Condition of Non-Motorized Transport Modes in Puran Dhaka: A Multinomial Logit Model-Based Mode Choice Behavior Analysis.",
     description:
       "The study investigated field data gathered from 97 Puran Dhaka inhabitants using a Multinomial Logit Model. According to the research, 71.4% of passengers preferred non-motorized transportation (NMT) modes, with rickshaws being the most popular choice (67.36%), followed by walking (24.31%) and bicycles (8.32%).\n\nThe survey observed that although people prefer to walk small distances, they often decide to walk even farther because of traffic congestion and rickshaw queues. The study brought to light several issues that the governing authorities can readily resolve, emphasizing the necessity of Puran Dhaka's efficient NMT mode utilization. According to the study's findings, the government ought to give NMT promotion top priority to guarantee reduced traffic and better transportation options for Puran Dhaka citizens.",
-    images: ["/transportation-planning-dhaka-rickshaw-analysis.jpg", "/urban-master-plan-dhaka.jpg"],
+    images: [condition1, condition2, condition3, condition4, condition5, condition6, condition7, condition8],
   },
   {
     title: "Impact of Climate Change on Agriculture & Food Security – Case Study, Paba Upazila, Rajshahi",

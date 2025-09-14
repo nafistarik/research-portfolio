@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image"
+
 export interface PersonalInfo {
   name: string
   email: string[]
@@ -40,7 +42,7 @@ export interface ResearchArticle {
 
 export interface FeaturedWork {
   title: string
-  image: string | string[]
+  image: string | string[] | StaticImageData
   description?: string
   slug?: string
 }
@@ -60,7 +62,7 @@ export interface ProfessionalProject {
 export interface AcademicProject {
   title: string
   description: string
-  images: string[]
+  images: string[] | StaticImageData[]
 }
 
 export interface Award {
