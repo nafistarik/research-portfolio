@@ -19,8 +19,6 @@ import condition1 from "@/assets/images/condition/condition1.jpeg"
 import condition2 from "@/assets/images/condition/condition2.jpg"
 import condition3 from "@/assets/images/condition/condition3.jpg"
 import condition4 from "@/assets/images/condition/condition4.jpg"
-import condition5 from "@/assets/images/condition/condition5.jpg"
-import condition6 from "@/assets/images/condition/condition6.jpg"
 import condition7 from "@/assets/images/condition/condition7.jpeg"
 import condition8 from "@/assets/images/condition/condition8.jpeg"
 
@@ -346,7 +344,7 @@ export const academicProjects: AcademicProject[] = [
       "The Condition of Non-Motorized Transport Modes in Puran Dhaka: A Multinomial Logit Model-Based Mode Choice Behavior Analysis.",
     description:
       "The study investigated field data gathered from 97 Puran Dhaka inhabitants using a Multinomial Logit Model. According to the research, 71.4% of passengers preferred non-motorized transportation (NMT) modes, with rickshaws being the most popular choice (67.36%), followed by walking (24.31%) and bicycles (8.32%).\n\nThe survey observed that although people prefer to walk small distances, they often decide to walk even farther because of traffic congestion and rickshaw queues. The study brought to light several issues that the governing authorities can readily resolve, emphasizing the necessity of Puran Dhaka's efficient NMT mode utilization. According to the study's findings, the government ought to give NMT promotion top priority to guarantee reduced traffic and better transportation options for Puran Dhaka citizens.",
-    images: [condition1, condition2, condition3, condition4, condition5, condition6, condition7, condition8],
+    images: [condition1, condition2, condition3, condition4, condition7, condition8],
   },
   {
     title: "Impact of Climate Change on Agriculture & Food Security – Case Study, Paba Upazila, Rajshahi",
