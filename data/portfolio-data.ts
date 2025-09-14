@@ -22,6 +22,19 @@ import condition4 from "@/assets/images/condition/condition4.jpg"
 import condition7 from "@/assets/images/condition/condition7.jpeg"
 import condition8 from "@/assets/images/condition/condition8.jpeg"
 
+import flood1 from "@/assets/images/flood/flood1.jpeg"
+import flood2 from "@/assets/images/flood/flood2.jpeg"
+import flood3 from "@/assets/images/flood/flood3.jpeg"
+import flood4 from "@/assets/images/flood/flood4.jpeg"
+import flood5 from "@/assets/images/flood/flood5.jpeg"
+import flood6 from "@/assets/images/flood/flood6.jpeg"
+import flood7 from "@/assets/images/flood/flood7.jpeg"
+import flood8 from "@/assets/images/flood/flood8.jpeg"
+import flood9 from "@/assets/images/flood/flood9.jpeg"
+import flood10 from "@/assets/images/flood/flood10.jpeg"
+
+// Portfolio Data
+
 // Hero Content
 export const heroContent = {
   name: "Prosenjit Das",
@@ -59,7 +72,7 @@ export const featuredWorks: FeaturedWork[] = [
   },
   {
     title: "Flood Vulnerability Assessment of Lama Municipality – A GIS, Remote Sensing and PRA Based Approach",
-    image: "/flood-vulnerability-mapping-gis.jpg",
+    image: flood1,
     slug: "/research/experience",
   },
   {
