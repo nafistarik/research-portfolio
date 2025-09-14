@@ -255,6 +255,7 @@ export const researchExperience: ResearchExperience[] = [
     position: "Undergraduate Thesis Project – RUET",
     organization: "RUET",
     project: "Flood Vulnerability Assessment of Lama Municipality – A GIS, RS & PRA Based",
+    images: [flood1, flood2, flood3, flood4, flood5, flood6, flood7, flood8, flood9, flood10],
     description:
       "A comprehensive assessment of flood vulnerability is required in Lama Municipality in order to effectively manage hazards and plan land use due to the growing demand for land resources brought on by population and economic growth. This study builds a flood vulnerability map using Participatory Rural Appraisal (PRA), Remote Sensing (RS), and Geographic Information System (GIS) techniques. By integrating variables, community vulnerability can be measured across institutional, environmental, social, and economic dimensions, allowing for the precise identification of flood-prone areas. In order to improve the accuracy of vulnerability assessments and guide targeted mitigation strategies in flood-prone areas, the study emphasizes the significance of combining technological methodologies like GIS and RS with community engagement through PRA.",
   },

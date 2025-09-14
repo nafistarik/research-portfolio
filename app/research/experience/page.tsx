@@ -22,6 +22,20 @@ export default function ResearchExperiencePage() {
                   </div>
                 </CardHeader>
 
+                {research.images && research.images.length > 0 && (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-4">
+                    {research.images.map((image, imgIndex) => (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        key={imgIndex}
+                        src={typeof image === "string" ? image : image.src}
+                        alt={`${research.project} - Image ${imgIndex + 1}`}
+                        className="w-full h-auto rounded-md object-cover"
+                      />
+                    ))}
+                  </div>
+                )}
+
                 {research.description && (
                   <CardContent>
                     <p className="text-card-foreground/80 leading-relaxed text-pretty">{research.description}</p>

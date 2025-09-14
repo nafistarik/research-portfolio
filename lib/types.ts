@@ -28,6 +28,7 @@ export interface ResearchExperience {
   organization: string
   project: string
   description?: string
+  images?: string[] | StaticImageData[]
 }
 
 export interface ResearchArticle {
